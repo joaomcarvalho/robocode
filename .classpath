@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="robots"/>
+	<classpathentry kind="lib" path="/Users/joaomcarvalho/robocode/libs/robocode.jar"/>
+	<classpathentry kind="lib" path="/Users/joaomcarvalho/robocode/libs/codesize-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/joaomcarvalho/robocode/libs/picocontainer-2.14.2.jar"/>
+	<classpathentry kind="lib" path="/Users/joaomcarvalho/robocode/libs/robocode.battle-1.9.3.3.jar"/>
+	<classpathentry kind="lib" path="/Users/joaomcarvalho/robocode/libs/robocode.core-1.9.3.3.jar"/>
+	<classpathentry kind="lib" path="/Users/joaomcarvalho/robocode/libs/robocode.host-1.9.3.3.jar"/>
+	<classpathentry kind="lib" path="/Users/joaomcarvalho/robocode/libs/robocode.repository-1.9.3.3.jar"/>
+	<classpathentry kind="lib" path="/Users/joaomcarvalho/robocode/libs/robocode.sound-1.9.3.3.jar"/>
+	<classpathentry kind="lib" path="/Users/joaomcarvalho/robocode/libs/robocode.ui-1.9.3.3.jar"/>
+	<classpathentry kind="lib" path="/Users/joaomcarvalho/robocode/libs/robocode.ui.editor-1.9.3.3.jar"/>
+	<classpathentry kind="lib" path="/Users/joaomcarvalho/robocode/libs/roborumble.jar"/>
+	<classpathentry kind="lib" path="/Users/joaomcarvalho/Downloads/jgap.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
