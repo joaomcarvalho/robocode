@@ -35,7 +35,7 @@ public class GPAlgorithm extends FitnessFunction {
 	private SpinnerNumberModel model = new SpinnerNumberModel(0,0,Integer.MAX_VALUE,1);
 	
 	private static final int POPULATION_SIZE = 100;
-	private static final int MAX_GENERATIONS = 100;
+	private static final int MAX_GENERATIONS = 45;
 	public static int robotScore, enemyScore;
 	
 	public void runAlgorithm() throws Exception{

@@ -10,31 +10,31 @@ public void run() {
     setColors(Color.red,Color.blue,Color.green);
 
     while (true) {
-        turnGunRight(739.0349845819807);
-        setAhead(454.68620205297907);
+        turnGunRight(15.813076205841048);
+        setAhead(461.4493284332109);
     }
 }
 public void onScannedRobot(ScannedRobotEvent e) {
-    setAhead(96.1686416227715);
+    setAhead(23.238395127222145);
 
-    setTurnRight(63.9627115241042);
+    setTurnRight(150.42805895273304);
 
-    setTurnGunRight(348.8466079683611);
+    setTurnGunRight(211.7141966024935);
 
-    setTurnRadarRight(323.1847254446084);
+    setTurnRadarRight(93.7939646998764);
 
-    if (e.getDistance() < 14.485980821508662) {
-        setFire(8.819933238090393);
+    if (e.getDistance() < 54.6570899011529) {
+        setFire(11.564541154334822);
     } else {
-        setFire(9.113476597801922);
+        setFire(5.077038296882043);
     }
 }
 public void onHitByBullet(HitByBulletEvent e) {
-    setTurnRight(497.3473266324282);
-    setAhead(55.61361386700132 * -1);
+    setTurnRight(125.4124599687636);
+    setAhead(474.41472694431445 * -1);
 }
 public void onHitWall(HitWallEvent e) {
-    back(94.09096525345424);
-    setAhead(574.5771139817991 * -1);
+    back(100.77856249135313);
+    setAhead(239.1342452291164 * -1);
 }
 }
